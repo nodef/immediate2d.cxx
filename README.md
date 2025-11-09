@@ -1,5 +1,5 @@
 # Immediate2D Drawing Framework
-A C++ drawing framework for Windows that makes simple graphics programming as much fun as the days when computers booted directly to a BASIC prompt.
+A C++ drawing framework for Windows that makes simple graphics programming as much fun as the days when computers booted directly to a BASIC prompt. It was developed by [Nicholas Piegdon](https://github.com/npiegdon).
 
 Made for beginners and classrooms.  To use this framework: open Visual Studio, choose "Create a new project", select the "Windows Desktop Wizard" from the list, (give your project a name), choose "Desktop Application (.exe)" from the wizard, and check the "Empty Project" box.  Then, add **immediate2d.h** and some new cpp file for your own code to the project.  Add a `#define IMM2D_IMPLEMENTATION` just before `#include "immediate2d.h"`.  Finally, just declare a `void run()` function and Immediate2D will take care of the rest.
 
@@ -20,6 +20,20 @@ Everything you need is documented in [immediate2d.h](/immediate2d.h) and a [Quic
 Visit the [Releases](https://github.com/npiegdon/immediate2d/releases/latest) page to download and play with pre-built versions of the examples. 
 
 ---
+
+## Installation
+
+Run:
+```bash
+$ npm i immediate2d.cxx
+```
+
+And then include `immediate2d.h` as follows:
+```c
+#include "node_modules/immediate2d.cxx/immediate2d.h"
+```
+
+--
 
 ### Example 1 - Hellow World
 A one-line example with exercises to familiarize the student with the "y goes down" computer graphics convention.
@@ -95,3 +109,10 @@ Demonstrates image loading while recreating [an effect](https://youtu.be/aQGgKvJ
 A remake of an old high school project of mine, demonstrating how to load images from resources embedded right in the application.  A basic level editor is included, which is also fun to tinker with.
 
 <img alt="Example B" src="images/exampleB.png" height="240">
+
+<br>
+<br>
+
+
+[![ORG](https://img.shields.io/badge/org-nodef-green?logo=Org)](https://nodef.github.io)
+![](https://ga-beacon.deno.dev/G-RC63DPBH3P:SH3Eq-NoQ9mwgYeHWxu7cw/github.com/nodef/immediate2d.cxx)

@@ -1,0 +1,6 @@
+exampleData/
+images/
+.editorconfig
+buildAll.bat
+cleanAll.bat
+example*.*

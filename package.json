@@ -1,0 +1,15 @@
+{
+  "name": "immediate2d.cxx",
+  "version": "2.2024.4",
+  "description": "A C++ drawing framework for Windows that makes simple graphics programming as fun and easy as the days when computers booted directly to a BASIC prompt; Nicholas Piegdon (2017).",
+  "keywords": ["c", "library", "graphics", "2d", "immediate mode", "windows", "gdi", "drawing", "simple", "fun", "easy"],
+  "license": "CC0-1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodef/immediate2d.cxx.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nodef/immediate2d.cxx/issues"
+  },
+  "homepage": "https://github.com/nodef/immediate2d.cxx#readme"
+}
